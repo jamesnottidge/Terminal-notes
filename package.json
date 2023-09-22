@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A Terminal based note taking app. Built with node js",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "terminalnotes": "./index.js"
   },
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jamesnottidge/Terminal-notes/issues"
   },
-  "homepage": "https://github.com/jamesnottidge/Terminal-notes#readme"
+  "homepage": "https://github.com/jamesnottidge/Terminal-notes#readme",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
 }
