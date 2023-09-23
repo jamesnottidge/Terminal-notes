@@ -35,7 +35,7 @@ const createServer = notes => {
     });
 };
 
-const start = (notes,port) => {
+export const start = (notes,port) => {
     const server = createServer(notes);
     server.listen(port, () => {
         console.log(`Server listening on port ${port}`);
